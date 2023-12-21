@@ -1,0 +1,183 @@
+body {
+    margin:0px;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+
+.background-container {
+    position:relative;
+    display:block;
+}
+
+
+.background-image {
+    width: 100%;
+    height: 70vh; /* Increase the height as needed (e.g., 120vh) */
+    object-fit:none;
+    display:block;
+}
+.logo-container {
+        -webkit-background-size:cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        overflow:hidden;
+    }
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius:75%;
+    z-index:2 ;
+}
+
+.founder-info {
+    background-color: rgba(44, 40, 40, 1.5);
+    padding:20px;
+    font-size: larger;
+    border-radius:5px;
+    margin-top: -255px;
+    text-align: center;
+    font-weight: bolder;
+    color: #ffffff;
+}
+.founder-info strong {
+    font-weight:bolder;
+    color: #ffffff; /* Set the color to blue */
+}
+.amc-text {
+    font-weight: bold;
+    color: #3498db; /* Set the color to blue */
+}
+
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.button {
+    text-align: center;
+    padding: 20px;
+    border-radius:55px;
+    width:10%;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+    margin-bottom: 20px;
+}
+
+
+.dialer-icon {
+    background-image: url('dialer.png'); /* Replace with the actual dialer icon */
+}
+.dialer-icon:active {
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.7); /* Change the color to green */
+}
+
+
+.whatsapp-icon {
+    background-image: url('wp.png'); /* Replace with the actual WhatsApp icon */
+}
+.whatsapp-icon:active {
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.7); /* Change the color to green */
+}
+.instagram-icon {
+    background-image: url('instagram.png'); /* Replace with the actual Instagram icon */
+}
+.instagram-icon:active {
+    box-shadow: 0 0 20px rgba(96, 8, 164, 0.7); /* Change the color to green */
+}
+.broucher-icon {
+    background-image: url('books.png'); /* Replace with the actual broucher icon */
+}
+.broucher-icon:active {
+    box-shadow: 0 0 20px rgba(247, 161, 1, 0.7); /* Change the color to green */
+}
+
+.gpay-icon {
+    background-image: url('gpay1.png'); /* Replace with the actual Paytm icon */
+}
+.gpay-icon:active {
+    box-shadow: 0 0 20px rgba(0, 225, 255, 0.7); /* Change the color to green */
+}
+
+.email-icon {
+    background-image: url('mail1.png.png'); /* Replace with the actual email icon */
+}
+.email-icon:active {
+    box-shadow: 0 0 20px rgba(248, 0, 0, 0.715); /* Change the color to green */
+}
+.map-icon {
+    background-image: url('gmap.png'); /* Replace with the actual email icon */
+}
+.map-icon:active {
+    box-shadow: 0 0 20px rgba(11, 207, 20, 0.952); /* Change the color to green */
+}
+.linkedin-icon {
+    background-image: url('linkedin1.png'); 
+}
+.linkedin-icon:active {
+    box-shadow: 0 0 20px rgba(205, 223, 6, 0.995); 
+}
+.youtube-icon{
+    background-image: url('youtube.png');
+}
+.youtube-icon:active {
+    box-shadow: 0 0 20px rgb(210, 1, 1); /* Change the color to green */
+}
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .background-image {
+        height: 100vh; /* Adjust the height for smaller screens */
+        background: #000;
+    }
+
+    .logo {
+        width: 250px;
+        height: 250px;
+    }
+
+    .founder-info {
+        font-size: 22px; 
+    }
+
+    .button-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns:repeat(3,2fr);
+    }
+
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+}
+/*.linkedin-icon {
+    background-image: url('Linkedin.gif'); 
+}
+
+.linkedin-icon:active {
+    box-shadow: 0 0 20px rgba(205, 223, 6, 0.995);
+    animation: shake 0.3s; 
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-5px);
+    }
+}*/
+/* Assuming "amc-logo" is the class of the AMC logo */
